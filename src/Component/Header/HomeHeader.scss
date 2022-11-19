@@ -1,0 +1,25 @@
+.Home_Header{
+
+
+    .logo {
+        background-color: black;
+        display: flex;
+     
+
+        .confess {
+            width: 80px;
+            height: 80px;
+        }
+
+        .search_input {
+            margin-left: 3rem;
+            outline-width: 0px;
+
+        }
+
+        .confess_logo {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+    }
+}

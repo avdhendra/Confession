@@ -1,0 +1,58 @@
+.login {
+  height: 100vh;
+  background-color: rgb(128, 129, 129);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  .card {
+    width: 50%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+  min-width: 500px;
+    min-height: 500px;
+.left{
+  border-radius: 10px 0px 0px 10px;
+    flex: 1;
+    display: flex;
+    background: black;
+    align-items: center;
+    justify-content: center;
+}
+    .right {
+      flex: 1;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      
+      h1 {
+        color: #555;
+        text-align: center;
+     }
+     
+    }
+  }
+}
+
+
+@media screen and  (max-width: 798px) {
+  .left{
+    display: none;
+  }
+
+
+
+
+}
+
+@media screen and (max-width: 520px) {
+.left{
+  display: none;
+}
+
+
+
+
+}

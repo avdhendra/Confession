@@ -1,0 +1,17 @@
+ form {
+     display: flex;
+     flex-direction: column;
+    gap: 30px;
+    }
+.account{
+    text-align: center;
+    padding: 5px;
+}
+span{
+    padding: 5px;
+}
+a:-webkit-any-link{
+    text-decoration: none;
+    font-weight: bold;
+    color:black
+}
